@@ -1,0 +1,12 @@
+kullanici_adi = "Handan"
+parola = "123"
+email = "handanduman@hotmail.com.tr"
+
+girilen_kullanici_adi =input("Kullanıcı adını giriniz:")
+girilen_email =input("Mail adresinizi yazınız:")
+girilen_parola =input("Şifrenizi giriniz:")
+
+if girilen_kullanici_adi==kullanici_adi and girilen_email==email and girilen_parola==parola:
+    print("Giriş Başarılı")
+if girilen_kullanici_adi!=kullanici_adi and girilen_email!=email and girilen_parola!=parola:
+    print(input("Kullanıcıya kayıt olmak ister misiniz?"))
